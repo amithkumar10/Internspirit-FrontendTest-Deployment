@@ -137,8 +137,9 @@ After every production deployment:
 |-------------|--------------|-----------|----------|---------|
 | `feature/*` | `main` | `main` | Short (days) | Develop features |
 | `release/*` | `main` | Back to `main` | Medium (weeks) | Stabilize & deploy |
-| `hotfix/*` | `release/*` | `release/*` | Very short (hours) | Fix release bugs (in production) |
 | `bugfix/*` | `release` | `release` | Short (days) | Fix release bugs (after QA process) |
+| `hotfix/*` | `release/*` | `release/*` | Very short (hours) | Fix release bugs (in production) |
+
 
 ---
 
